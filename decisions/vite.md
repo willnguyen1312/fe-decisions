@@ -1,5 +1,3 @@
-Here is an example architecture decision record for using Vite.js:
-
 # Use Vite.js
 
 Date: 2023-06-19
