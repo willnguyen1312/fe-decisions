@@ -12,12 +12,14 @@ While Webpack has been dominant bundler in the past few years, Vite is gaining p
 
 ## Decision
 
-We will use Vite as our build tool for the frontend application. Its simplicity and speed will help us to build a better developer experience for our users.
+We will use Vite as our build tool for the frontend application. Its simplicity and speed results in better developer experience that leads to faster delivery for our users.
 
 ## Consequences
 
-Extremely fast builds - thanks to esbuild and native ES module support in modern browsers that power Vite.
+Extremely fast builds - thanks to native speed build (powered by esbuild) and native ES module support in modern browsers that Vite leverages.
 
 Simple and unopinionated - Easy to configure and extend via plugin API
 
 Dev server - Built-in dev server supports hot module replacement (HMR) out of the box.
+
+Optimized production builds - Vite uses Rollup under the hood to generate optimized production builds.
