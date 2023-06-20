@@ -1,6 +1,6 @@
 # React-apollo for state management
 
-Date: 2023-06-19
+Date: 2023-06-20
 
 Status: Accepted
 
@@ -16,12 +16,14 @@ We will use react-apollo for manage state in our React application.
 
 Consistency: Same API on client and server state managed by React Apollo Client.
 
-Reactive variables: Local reactive variables that can be used anywhere in your app and work with Apollo Client's reactive UI data.
+Reactive variables: Local reactive variables that can be used as a mechanism for representing local state outside of the Apollo Client cache. Additionally, it is possible to trigger an update of active queries and components that depends on that variable.
 
-Realtime updates: Ability to subscribe to data changes on the client.
+Queries and mutations: Ability to query and mutate data on the client.
 
-Caching: Client cache avoids unnecessary network requests.
+Realtime updates via subscription: Ability to subscribe to data changes on the client.
 
-API layer: Abstracts details of API networking from components.
+Caching: Client cache layer of React-apollo helps to avoid unnecessary network requests.
+
+API layer via hooks: Abstracts details of API networking from components.
 
 Developer tool: Apollo DevTools for debugging and monitoring.
